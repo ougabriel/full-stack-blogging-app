@@ -5,6 +5,7 @@ I was tasked with setting up a CI/CD pipeline for a full-stack blogging app host
 The project involves integrating Jenkins for build and deployment, using SonarQube for code quality checks,
 Nexus for artifact management, and Docker for containerizing the application.
 Once deployed, we will monitor the application using Prometheus, Blackbox Exporter, and visualize it with Grafana.
+I integrated Email notification script using Groovy to send alerts when the pipeline fails or succeeds.
 ```
 ---
 
