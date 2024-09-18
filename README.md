@@ -124,17 +124,17 @@ kubectl apply -f kubernetes/deployment.yml
   - Prometheus: `http://<your-server-ip>:9090`
 
 ## Key Pipeline Stages
-1. **Git Checkout**: Pulls the latest code from GitHub.
-2. **Build & Analysis**: Maven builds the app, SonarQube analyzes the code.
-3. **Vulnerability Scan**: Trivy scans the Docker image for vulnerabilities.
-4. **Docker Build & Push**: Builds a Docker image and pushes it to DockerHub.
-5. **Deploy to EKS**: Deploys the app to the Kubernetes cluster.
-6. **Monitor**: Monitors uptime and performance using Prometheus and Grafana.
+1. Git Checkout: Pulls the latest code from GitHub.
+2. Build & Analysis: Maven builds the app, SonarQube analyzes the code.
+3. Vulnerability Scan: Trivy scans the Docker image for vulnerabilities.
+4. Docker Build & Push: Builds a Docker image and pushes it to DockerHub.
+5. Deploy to EKS: Deploys the app to the Kubernetes cluster.
+6. Monitor: Monitors uptime and performance using Prometheus and Grafana.
 
 ## Project Highlights
-- **Full CI/CD Automation**: Automates the entire software development lifecycle, from code commit to deployment.
-- **Real-Time Monitoring**: Integrates a comprehensive monitoring system using Prometheus and Grafana to ensure the app's health.
-- **Security-Focused**: Static code analysis via SonarQube and vulnerability scans via Trivy ensure high code quality and security.
+- Full CI/CD Automation: Automates the entire software development lifecycle, from code commit to deployment.
+- Real-Time Monitoring: Integrates a comprehensive monitoring system using Prometheus and Grafana to ensure the app's health.
+- Security-Focused: Static code analysis via SonarQube and vulnerability scans via Trivy ensure high code quality and security.
 
 ## Demonstration
 Check out the [live demo](http://your-demo-link.com) of the deployed application!
