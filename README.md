@@ -48,7 +48,7 @@ I integrated Email notification script using Groovy to send alerts when the pipe
 This project demonstrates a complete **CI/CD pipeline** setup for deploying a full-stack blogging application, integrating modern tools like Jenkins, SonarQube, Nexus, Docker, Kubernetes (EKS), and Prometheus for monitoring. This repository showcases the **automation of code quality checks, artifact management, application deployment, and monitoring** in a production-like environment.
 
 ## Key Technologies & Tools
-- **Jenkins**: Continuous Integration and Continuous Deployment.
+- *Jenkins*: Continuous Integration and Continuous Deployment.
 - **SonarQube**: Static code analysis for quality and security checks.
 - **Nexus**: Artifact repository manager.
 - **Docker**: Containerization of the application.
