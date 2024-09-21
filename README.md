@@ -140,7 +140,8 @@ kubectl apply -f kubernetes/deployment.yml
 - Security-Focused: Static code analysis via SonarQube and vulnerability scans via Trivy ensure high code quality and security.
 
 ## Demonstration
-Check out the [live demo]([http://your-demo-link.com](https://medium.com/@ougabriel/cicd-project-production-level-blog-app-deployment-using-eks-nexus-sonarqube-trivy-with-40eb648a688a)) of the deployed application!
+Check out the [full blog post](https://medium.com/@ougabriel/cicd-project-production-level-blog-app-deployment-using-eks-nexus-sonarqube-trivy-with-40eb648a688a) about the CI/CD project!
+
 
 ---
 
