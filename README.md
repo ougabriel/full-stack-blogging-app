@@ -7,6 +7,10 @@ Nexus for artifact management, and Docker for containerizing the application.
 Once deployed, we will monitor the application using Prometheus, Blackbox Exporter, and visualize it with Grafana.
 I integrated Email notification script using Groovy to send alerts when the pipeline fails or succeeds. 
 ```
+
+![image](https://github.com/user-attachments/assets/7fe4ae8c-bab9-4f20-b3c7-81e1cdad9f81)
+
+
 ---
 
 ### Project Structure
