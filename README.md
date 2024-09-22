@@ -100,7 +100,7 @@ cd full-stack-blogging-app
 ### 2. Setup CI/CD Pipeline with Jenkins
 - Install Jenkins using the provided script:
 ```bash
-./ci-scripts/install_jenkins.sh
+./ci-scripts/install_jenkins.sh 
 ```
 - Configure Jenkins with plugins for Docker, SonarQube, Maven, and Kubernetes.
 
