@@ -14,7 +14,7 @@ I integrated Email notification script using Groovy to send alerts when the pipe
 
 ### Project Structure
 
-```
+``` 
 /full-stack-blogging-app
 ├── /ci-scripts
 │   ├── install_jenkins.sh
