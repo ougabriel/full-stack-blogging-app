@@ -1,4 +1,4 @@
-### Full-Stack Blog App
+### Full-Stack Blog App 
 ```
 Job Scenario:
 I was tasked with setting up a CI/CD pipeline for a full-stack blogging app hosted on GitHub.
