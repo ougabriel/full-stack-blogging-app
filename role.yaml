@@ -1,0 +1,9 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: role
+metadata:
+  name: role
+  namespace: webapps
+rules:
+- apiGroups: [""]
+  resources: ["*"]
+  verbs: ["get", "list", "create", "update", "delete","patch"]
